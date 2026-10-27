@@ -1,0 +1,212 @@
+{
+  "results": [
+    {
+      "category": "Presentation",
+      "source_rel": "outputs/final/INCEPTION_2026_GajahHitam_PPT_Final_Audit.pptx",
+      "dest_rel": "01_Presentation/INCEPTION_2026_GajahHitam_PPT_Final_Audit.pptx",
+      "description": "Slide Presentasi Final (PPTX 16:9 Widescreen, 15 Slide, Ter-audit)",
+      "size_bytes": 1384751,
+      "sha256": "e0f31076dd2899b9e2ef5ad8c309f15184c6c433e66a7dc347f8c14aa424a7ba",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Presentation",
+      "source_rel": "outputs/final/INCEPTION_2026_GajahHitam_PPT_Final_Audit.pdf",
+      "dest_rel": "01_Presentation/INCEPTION_2026_GajahHitam_PPT_Final_Audit.pdf",
+      "description": "Slide Presentasi Final (PDF Resmi untuk Evaluasi Juri)",
+      "size_bytes": 1233194,
+      "sha256": "3d7c9c6d35fb4f7e01317247e7874af54bb1fb21907c931696fa33bdc6474654",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Final Report",
+      "source_rel": "outputs/final/INCEPTION_2026_Final_Report.pdf",
+      "dest_rel": "02_Final_Report/INCEPTION_2026_Final_Report.pdf",
+      "description": "Laporan Riset Kuantitatif Final (PDF Resmi A4)",
+      "size_bytes": 803217,
+      "sha256": "ad7e082f3de09279f27fa8126124fac96cbdf69cf8499f3da90a17a71a1f86e1",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Final Report",
+      "source_rel": "outputs/final/INCEPTION_2026_Final_Report.html",
+      "dest_rel": "02_Final_Report/INCEPTION_2026_Final_Report.html",
+      "description": "Laporan Riset Final Interaktif Mandiri (HTML Offline)",
+      "size_bytes": 92808,
+      "sha256": "ee41b9427dc3f5e00fa8a41b805b564591afe23310fcba85cfe630bbaa489eff",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Predictions",
+      "source_rel": "outputs/submission/submission_blend60_40.csv",
+      "dest_rel": "03_Predictions/submission_blend60_40.csv",
+      "description": "File Submission Prediksi Utama (Format 2-Kolom: Date, Target_Volatilitas_Y, 359 Baris)",
+      "size_bytes": 11852,
+      "sha256": "d94e7533e2ee9c99a847a31f61f61fc5b473d67cb2e68015ea82d47001239459",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Predictions Backup",
+      "source_rel": "outputs/submission/dataset_peserta_filled_blend60_40.csv",
+      "dest_rel": "03_Predictions/Optional_Backup/dataset_peserta_filled_blend60_40.csv",
+      "description": "File Prediksi Cadangan (Format Dataset Lengkap 4.266 Baris dengan 359 Baris Terisi)",
+      "size_bytes": 646678,
+      "sha256": "2cd9cd7a7113879e015fe72effdce1e7a2cf2501794e84b7d623519201b3b2f5",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Notebook",
+      "source_rel": "notebook/EDA.ipynb",
+      "dest_rel": "04_Notebooks_and_Code/EDA.ipynb",
+      "description": "Notebook 01: Exploratory Data Analysis & Formulasi Fitur X1, X2, X3 (Task 1)",
+      "size_bytes": 2056173,
+      "sha256": "a69794dfde001824034fb7b7388cc0cae71ec648f12e3d5d12be394b66e9fda2",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Notebook",
+      "source_rel": "notebook/02_Validation_Baseline.ipynb",
+      "dest_rel": "04_Notebooks_and_Code/02_Validation_Baseline.ipynb",
+      "description": "Notebook 02: Validasi Temporal Walk-Forward & Baseline Naif rv_past5 (Task 2 & 3)",
+      "size_bytes": 220051,
+      "sha256": "3dbe3f9b02b8e5f96f34f12e4a23fc818fdd7c0150b025187bfe330cdd479774",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Notebook",
+      "source_rel": "notebook/03_Model_Comparison.ipynb",
+      "dest_rel": "04_Notebooks_and_Code/03_Model_Comparison.ipynb",
+      "description": "Notebook 03: Eksplorasi 4 Arsitektur Regresi Awal (Task 3)",
+      "size_bytes": 702757,
+      "sha256": "6848c6d8c4277f91d8854301af906c865c30d89148ab5ebc7ab77b2726f72b1f",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Notebook",
+      "source_rel": "notebook/04_Model_Tuning.ipynb",
+      "dest_rel": "04_Notebooks_and_Code/04_Model_Tuning.ipynb",
+      "description": "Notebook 04: Optimasi Hiperparameter GBR L1 & Ridge Regression (Task 3)",
+      "size_bytes": 900076,
+      "sha256": "076c1d9a02806ee7b7865139a5e51ccb69df38b0360f7bcc7cb2bc4ea9bdf264",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Notebook",
+      "source_rel": "notebook/05_Robustness_Model_Selection.ipynb",
+      "dest_rel": "04_Notebooks_and_Code/05_Robustness_Model_Selection.ipynb",
+      "description": "Notebook 05: Uji Ketahanan Krisis & Ensemble Blend 60:40 (Task 3)",
+      "size_bytes": 607371,
+      "sha256": "2e4f3d67f74bf8f80b365ede939a259d4252bb2488610cb6f51fa7f59a4bc97e",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Notebook",
+      "source_rel": "notebook/06_Reconciliation_Audit.ipynb",
+      "dest_rel": "04_Notebooks_and_Code/06_Reconciliation_Audit.ipynb",
+      "description": "Notebook 06: Audit Rekonsiliasi Metrik Silang OOF 772 Hari (Task 3)",
+      "size_bytes": 139512,
+      "sha256": "2283bb1732aa52bc0095ebe19d42052cfa3d352ee30d69bfeec4f19bff683b05",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Notebook",
+      "source_rel": "notebook/07_Model_Interpretation_XAI.ipynb",
+      "dest_rel": "04_Notebooks_and_Code/07_Model_Interpretation_XAI.ipynb",
+      "description": "Notebook 07: Explainable AI SHAP Global & Waterfall Krisis 11 Mei 2022 (Task 3)",
+      "size_bytes": 338838,
+      "sha256": "cf6b81fe9111e44c312ec4b66366ceb9e390e6414da9a35f71f63367f65e8911",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Notebook",
+      "source_rel": "notebook/08_Final_Training_Submission.ipynb",
+      "dest_rel": "04_Notebooks_and_Code/08_Final_Training_Submission.ipynb",
+      "description": "Notebook 08: Full Retrain 3.887 Hari & Inferensi Uji 359 Hari Kompetisi (Task 3)",
+      "size_bytes": 591781,
+      "sha256": "bf78d5d5714f9cd02ecb5593ef9b182361229b2a3d0d25d83e6cf5e678779836",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Code",
+      "source_rel": "scripts/feature_engineering.py",
+      "dest_rel": "04_Notebooks_and_Code/feature_engineering.py",
+      "description": "Modul Fitur Inti & Uji Invariansi Anti-Leakage (Root Folder Code)",
+      "size_bytes": 16339,
+      "sha256": "28be914bd5116f32e1a4979443888a7ff0ce6071aa7d80f4cd18810dc60c17d9",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Code",
+      "source_rel": "scripts/feature_engineering.py",
+      "dest_rel": "04_Notebooks_and_Code/scripts/feature_engineering.py",
+      "description": "Modul Fitur Inti & Uji Invariansi Anti-Leakage (Subfolder scripts/)",
+      "size_bytes": 16339,
+      "sha256": "28be914bd5116f32e1a4979443888a7ff0ce6071aa7d80f4cd18810dc60c17d9",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Documentation",
+      "source_rel": "Aset Lomba/Studi Kasus.docx",
+      "dest_rel": "05_Documentation/Studi Kasus.docx",
+      "description": "Dokumen Soal & Petunjuk Studi Kasus Resmi Panitia INCEPTION 2026",
+      "size_bytes": 13586,
+      "sha256": "0e3a2d581078c798e6307d96a723015591363d29a212bd5eb6eb4d7161ca0567",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Documentation",
+      "source_rel": "Aset Lomba/DATA DICTIONARY dari DATASET Indonesia Financial Time Series Dataset 2010-2026.docx",
+      "dest_rel": "05_Documentation/DATA DICTIONARY dari DATASET Indonesia Financial Time Series Dataset 2010-2026.docx",
+      "description": "Dokumen Kamus Data Resmi dari Panitia INCEPTION 2026",
+      "size_bytes": 319440,
+      "sha256": "79ca4f472c873ef4fb336d1712910b92201c6fcde41c082adc0486c790af3b8e",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Documentation",
+      "source_rel": "docs/final_report.md",
+      "dest_rel": "05_Documentation/final_report.md",
+      "description": "Naskah Laporan Riset Kuantitatif Komprehensif (Markdown)",
+      "size_bytes": 67788,
+      "sha256": "66d8221e5d267c298e8b5e1a5afab7eae635a4f210611f58a64037584bcbcf7c",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Documentation",
+      "source_rel": "docs/checkpoint_71_final_presentation_accuracy_audit.md",
+      "dest_rel": "05_Documentation/checkpoint_71_final_presentation_accuracy_audit.md",
+      "description": "Laporan Forensik Audit Akurasi Presentasi Final (Checkpoint 7.1)",
+      "size_bytes": 22399,
+      "sha256": "c0e1fc9977da314893dc54aac2462a2594fc2d515a28ec25221b4492329d388e",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Documentation",
+      "source_rel": "docs/checkpoint_80_final_submission_inventory.md",
+      "dest_rel": "05_Documentation/checkpoint_80_final_submission_inventory.md",
+      "description": "Laporan Inventarisasi Artefak Final Proyek (Checkpoint 8.0)",
+      "size_bytes": 25015,
+      "sha256": "d5cbd61d59df8e16aababa32de21bc03d4c10ec8e0379c770b34c525a719f823",
+      "status": "VERIFIED (MATCH)"
+    },
+    {
+      "category": "Package Root",
+      "source_rel": "GENERATED",
+      "dest_rel": "README.md",
+      "description": "Panduan Paket & Navigasi Dewan Juri",
+      "size_bytes": 8142,
+      "sha256": "cac28003c33f7d312756fdee5cbdf0955e0ac7d6ec963d1a8abbe93bfc7cfea2",
+      "status": "VERIFIED (GENERATED)"
+    },
+    {
+      "category": "Package Root",
+      "source_rel": "GENERATED",
+      "dest_rel": "requirements.txt",
+      "description": "Daftar Dependensi Pustaka Python",
+      "size_bytes": 234,
+      "sha256": "e003b0734447321801c12205274e74ed2ef546cc7942acb9906b177b0261adbf",
+      "status": "VERIFIED (GENERATED)"
+    }
+  ],
+  "failures": []
+}
