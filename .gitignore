@@ -1,0 +1,77 @@
+# =============================================================================
+# INCEPTION 2026 — GajahHitam Project .gitignore
+# Professional Python, Data Science, and Jupyter Notebook standards
+# =============================================================================
+
+# --- Byte-compiled / optimized / DLL files ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Caches and Environments ---
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+*.env
+
+# --- Jupyter Notebook & Interactive Run Checkpoints ---
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- Testing, Linting & Type Checking ---
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Operating System & Editor Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs, Temporary & Scratch Files ---
+*.log
+scratch/
+tmp/
+*.tmp
+
+# --- Competition Raw Data Protection (Compliance & Intellectual Property) ---
+# Raw competition dataset provided by INCEPTION 2026 committee
+Aset Lomba/*.csv
+Aset Lomba/*.xlsx
+# Filled datasets containing raw competition data
+*dataset_peserta_filled*.csv
+
+# --- Large Export Binaries & Redundant Build Artifacts ---
+# Backup / scratch notebooks
+archive/
+# Redundant presentation preview assets (keep docs/images/ for visuals)
+pptAset/
+outputs/final/pptAset/
+outputs/final/slides_preview*/
+# Redundant root copies of report PDFs (already in submission_package/02_Final_Report)
+outputs/final/*.pdf
+outputs/final/*.html
+# Redundant nested duplicate mirrors inside submission_package
+outputs/final/submission_package/04_Notebooks_and_Code/
+outputs/final/submission_package/05_Documentation/
+outputs/final/submission_package/03_Predictions/Optional_Backup/
+# Large PPTX presentation binaries (keep source scripts & audited docs)
+*.pptx
+
+# --- Keep Crucial Competition Deliverables Explicitly Tracked ---
+!Aset Lomba/Guidebook Data Science.pdf
+!Aset Lomba/Studi Kasus.docx
+!Aset Lomba/DATA DICTIONARY*.docx
+!outputs/submission/submission_blend60_40.csv
+!outputs/final/submission_package/03_Predictions/submission_blend60_40.csv
+!docs/images/*.png
